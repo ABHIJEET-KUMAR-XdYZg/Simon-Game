@@ -49,6 +49,7 @@ function check(buttonPressed){
     }
     else{
         started=false;
+        ans=[];
         $("h1").text("Game Over, Press Any Key to Restart");
         produceSound("wrong");
         gameOverBackground();
